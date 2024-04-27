@@ -21,6 +21,7 @@ public class ErrorValidation extends BaseTest{
 		
 		lg.ApplicationLogin("jagnath5kol@gmail.com", "Radha@108");
 	   Assert.assertEquals("Incorrect email or password.", lg.errorMessageValidation());
+	   System.out.println("Hari Bol");
 
 	}
 	
