@@ -20,7 +20,7 @@ public class ErrorValidation extends BaseTest{
 	public void loginErrorValidation() throws InterruptedException, IOException {
 		
 		lg.ApplicationLogin("jagnath5kol@gmail.com", "Radha@108");
-	   Assert.assertEquals("Incorrects email or password.", lg.errorMessageValidation());
+	   Assert.assertEquals("Incorrect email or password.", lg.errorMessageValidation());
 
 	}
 	
